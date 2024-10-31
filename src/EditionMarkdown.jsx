@@ -4,7 +4,6 @@ import ReactMarkdown from 'react-markdown';
 export default function EditionMarkdown() {
   const [title, setTitle] = useState('exemple');
   const [content, setContent] = useState('');
-  const [fileName, setFileName] = useState('');
 
   const handleTitleChange = (e) => setTitle(e.target.value);
 
