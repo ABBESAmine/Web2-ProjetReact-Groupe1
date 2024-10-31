@@ -44,7 +44,7 @@ export default function EditionMarkdown() {
         />
       </div>
 
-      <div>
+      <div id='featuresMarkdown'>
         <label>Contenu :</label>
         <textarea
           rows="10"
@@ -52,18 +52,17 @@ export default function EditionMarkdown() {
           onChange={handleContentChange}
           placeholder="Écrivez le contenu Markdown ici"
         />
+        <div>
+        <button onClick={exportMarkdown}>Exporter en .md</button>
+        <input type="file" accept=".md" onChange={importMarkdown} />
+      </div>
       </div>
 
-      <div>
-        <h3>Prévisualisation</h3>
+      <div id='prevMarkdown'>
+        <h3>Prévisualisation du fichier :</h3>
         <div className="preview">
           <ReactMarkdown>{content}</ReactMarkdown>
         </div>
-      </div>
-
-      <div>
-        <button onClick={exportMarkdown}>Exporter en .md</button>
-        <input type="file" accept=".md" onChange={importMarkdown} />
       </div>
     </div>
   );
