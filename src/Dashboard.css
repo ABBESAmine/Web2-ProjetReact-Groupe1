@@ -1,0 +1,50 @@
+#contenurApiInutile {
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    flex-wrap: wrap;
+}
+
+
+.divData, #divDateHeure{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.divData{
+    width: 15%;
+    min-width: 275px;
+    margin: 0px 10px 20px 10px;
+    text-align: center;
+}
+
+#divDateHeure{
+    margin: 0px 10px 0px 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#imgMocktail{
+    width: 50%;
+    height: 50%;
+}
+
+
+#dialogRecette{
+    position: fixed;
+    top: 50%; /* Placez-le au milieu de l'écran */
+    left: 50%; /* Placez-le au milieu de l'écran */
+    transform: translate(-50%, -50%);
+    max-height: 400px;
+    width: 40%;
+    overflow: auto;
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px white;
+}
+
+.titleDivData{
+    padding-bottom: 10px;
+    border-bottom: 1px white solid;
+}
