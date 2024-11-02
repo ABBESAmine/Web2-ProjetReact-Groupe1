@@ -1,6 +1,5 @@
 import './App.css'
-import Dashboard from './dashboard'
-import Title from './Title'
+import Dashboard from './Dashboard'
 import ListMarkdown from './ListMarkdown'
 
 
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <div>
-        <Title />
+        <h1>Editeur de Markdown</h1>
         <Dashboard/>
         <ListMarkdown/>
     </div>
