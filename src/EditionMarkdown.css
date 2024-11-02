@@ -1,0 +1,39 @@
+#exImMd{
+    display: flex;
+    flex-direction: column;
+}
+
+#exImMd button{
+    width: 20%;
+}
+
+#editionMarkdown{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#editionMarkdown div{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+#prevMarkdown{
+    width: 50%;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#editionAndButtonPart{
+    width: 50%;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#allComp{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

@@ -4,7 +4,15 @@ export default class MarkdownFile {
     constructor(title, content) {
       this.title = title;
       this.content = content;
-      MarkdownFile.instances.push(this);
+      MarkdownFile.ListMarkdownFile.push(this);
     }
+
+    add(file){
+        MarkdownFile.ListMarkdownFile.push(file);
+    }
+
+    static getAll(){
+        return this.ListMarkdownFile;
+    }
+
 }
-  
