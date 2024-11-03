@@ -8,7 +8,7 @@ export default function ListMarkdown() {
 
   useEffect(() => {
     setMarkdownFiles([...MarkdownFile.getAll()]);
-  }, []);
+  }, [...MarkdownFile.getAll()]);
 
 
 

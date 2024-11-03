@@ -1,3 +1,7 @@
+body{
+    margin-bottom: 0px;
+}
+
 #exImMd{
     display: flex;
     flex-direction: column;
