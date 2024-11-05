@@ -6,10 +6,10 @@ import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 
 
 createRoot(document.getElementById('root')).render(
-    <HashRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" exact element={<App />} />
       <Route path="/edit" exact element={<EditionMarkdown />} />
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 )
