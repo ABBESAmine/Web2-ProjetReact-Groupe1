@@ -1,15 +1,18 @@
-import './App.css'
-import Dashboard from './Dashboard'
-import ListMarkdown from './ListMarkdown'
+import './App.css';
+import EditionMarkdown from './EditionMarkdown.jsx';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import Home from './Home.jsx';
+
 
 
 export default function App() {
 
   return (
-    <div>
-        <h1>Editeur de Markdown</h1>
-        <Dashboard/>
-        <ListMarkdown/>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" exact element={<Home />} />
+      <Route path="/edit" exact element={<EditionMarkdown />} />
+    </Routes>
+  </BrowserRouter>
   )
 }
