@@ -7,6 +7,8 @@ import Home from './Home.jsx';
 
 export default function App() {
 
+  console.log('hello world');
+  
   return (
     <BrowserRouter>
     <Routes>
