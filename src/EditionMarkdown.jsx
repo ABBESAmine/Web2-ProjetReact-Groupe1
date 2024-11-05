@@ -59,7 +59,7 @@ export default function EditionMarkdown() {
           <div>
           <label>Contenu :</label>
           <textarea
-            rows="50"
+            rows="30"
             cols="50"
             value={content}
             onChange={handleContentChange}
