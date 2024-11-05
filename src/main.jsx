@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+    <BrowserRouter basename='/Web2-ProjetReact-Groupe1'>
     <Routes>
       <Route path="/" exact element={<App />} />
       <Route path="/edit" exact element={<EditionMarkdown />} />

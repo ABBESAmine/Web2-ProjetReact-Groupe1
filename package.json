@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://ABBESAmine.github.io//Web2-ProjetReact-Groupe1",
+  "homepage": "https://abbesamine.github.io/Web2-ProjetReact-Groupe1",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
